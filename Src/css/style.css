@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.video {
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.main-text {
+  padding: px;
+  color: aliceblue;
+  background-color: rgba(0, 0, 0, 0.795);
+
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+  text-decoration: none;
+}
+
+.main-text h1 {
+  padding: 25px;
+  font-size: 50px;
+  display: flex;
+}
+
+.main-text h2 {
+  padding: 5px;
+  font-size: 35px;
+  display: flex;
+}
+
+.text {
+  padding: 25px;
+  width: 650px;
+
+  font-size: 20px;
+
+  transition: 0.3s ease-in-out;
+}
+
+.text:hover {
+  transform: scale(1.05);
+}
+
+.social-links a {
+  color: aliceblue;
+  display: flex;
+  font-size: 80px;
+
+  padding: 5px;
+
+  border-radius: 50%;
+}
+
+.menu-lateral {
+  position: fixed;
+  top: 0px;
+  right: 0;
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+  gap: 20px;
+}
+
+.menu-lateral a {
+  color: aliceblue;
+  font-size: 40px;
+  transition: 0.2s;
+}
+
+a:hover {
+  transform: scale(1.3);
+}
+
+#linkedin:hover {
+  color: #005194;
+}
+
+#github:hover {
+  color: #a14af3;
+}
+
+#whatsapp:hover {
+  color: #25d366;
+}
