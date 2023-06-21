@@ -10,14 +10,14 @@
     <link
       rel="icon"
       type="image/x-icon"
-      href="/github/Slayer-removebg-preview.png"
+      href="/Src/img/Slayer-removebg-preview.png"
     />
   </head>
   <body>
     <div class="main-text">
-      <h1>Demon slayer - 3ª temporada</h1>
+      <h1>Demon slayer </h1>
 
-      <p class="text">
+      <p class="text" >
         A série Demon Slayer (Kimetsu no Yaiba) ganhará terceira temporada no
         dia 23 de abril de 2023 na plataforma de streaming Crunchyroll. Lançado
         em 2019 pelo estúdio Ufotable, o anime adapta a obra literária de mesmo
@@ -28,7 +28,7 @@
         virar um caçador de demônios e buscar vingança.
       </p>
 
-      <p class="text">
+      <p class="text" >
         Atualmente, a produção possui duas temporadas, além de um filme,
         disponíveis na Netflix e no Crunchyroll. Confira, a seguir, detalhes do
         enredo da terceira temporada, personagens e trailer disponibilizado.
@@ -71,7 +71,7 @@
         99%.
       </p>
     </div>
-
+        <!-- /////////////////////Social media /////////// -->
     <aside class="menu-lateral">
       <a
         id="linkedin"
@@ -94,22 +94,55 @@
         href="https://web.whatsapp.com/send?phone=5561998516239"
         target="_blank"
         ><ion-icon name="logo-whatsapp"></ion-icon>
-      </a>
+    </a>
 
-      <button id="button-toggle">
+    </aside >
+   <!-- ////////////////////  play/pause ///////// -->
+   <aside class="menu-lateral-2">
+    <button onclick="playVid()" id="play-button">
+      <img
+        onclick="playImg()"
+        class="button-img-play"
+        src="/Src/img/play-removebg-preview-.png"
+        alt="demon slayer logo "
+      />
+    </button>
 
-        <img onclick="changeImg()"
-          class="button-img"
-          src="/Src/img/Slayer-removebg-preview.png"
-          alt="demon slayer logo "
-        />
-
+    <button onclick="pauseVid()" id="play-button">
+      <img
+        onclick="playImg()"
+        class="button-img-play-2"
+        src="/Src/img/Pause Button Png.png"
+        alt="demon slayer logo "
+      />
+      <!-- /////////////////////////Hashiras////////////////// -->
+    </button>
+      <button class="hashiras-button" id="change1"> Sun
+        <img src="/Src/img/Sun-removebg-preview.png" alt="" srcset="">
       </button>
+
+      <button class="hashiras-button" id="change2"> Mist
+        <img src="/Src/img/Mist-removebg-preview.png" alt="" srcset="">
+      </button>
+      <button class="hashiras-button" id="change3">Sound
+        <img src="/Src/img/Sound-removebg-preview.png" alt="" srcset="">
+      </button>
+      <button class="hashiras-button" id="change4">Fleme
+        <img src="/Src/img/Flames-removebg-preview.png" alt="" srcset="">
+      </button>
+      <button class="hashiras-button" id="change5">Water
+        <img src="/Src/img/Water-removebg-preview.png" alt="" srcset="">
+      </button>
+      <button class="hashiras-button" id="change6">Insect
+        <img src="/Src/img/insect-removebg-preview.png" alt="" srcset="">
+      </button>
+
     </aside>
     <!-- ///video-/// -->
-    <div>
-      <video class="video" autoplay loop muted>
-        <source src="/Src/Video/Tanjiro  vs Hantengu.webm" type="video/mp4" />
+    <div >
+      <video  class="video" loop muted autoplay id="video-demonslayer">
+       
+        <source src="./Src/Video/kanao-tsuyuri-butterfly-kimetsu-no-yaiba-moewalls.com.mp4" type="video/mp4" />
       </video>
     </div>
     <script
@@ -124,3 +157,5 @@
     <script src="/index.js"></script>
   </body>
 </html>
+
+
